@@ -4,9 +4,9 @@ public class Player {
 
     private int ranking;
 
-    private String name;
+    public String name;
 
-    private int age;
+    public int age;
 
     public Player(int ranking, String name, int age) {
         this.ranking = ranking;
@@ -40,7 +40,7 @@ public class Player {
 
     @Override
     public String toString() {
-        return this.name;
+        return this.name + " : " + this.age;
     }
 
 }

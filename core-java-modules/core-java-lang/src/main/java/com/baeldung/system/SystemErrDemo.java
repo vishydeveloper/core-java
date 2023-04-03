@@ -14,5 +14,6 @@ public class SystemErrDemo {
 
         // Print and then 'hit' return
         System.err.println("an error message having new line at the end");
+        System.out.println("This is not error message");
     }
 }

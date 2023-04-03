@@ -9,7 +9,7 @@ package com.baeldung.system;
  */
 public class SystemExitDemo {
     public static void main(String[] args) {
-        boolean error = false;
+        boolean error = true;
 
         // do something and set error value
 
